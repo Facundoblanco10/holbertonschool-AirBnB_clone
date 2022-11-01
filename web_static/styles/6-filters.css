@@ -38,10 +38,46 @@ button:hover {
   font-weight: 600;
 }
 .locations h4 {
+  margin: 0px;
   font-weight: 400;
   font-size: 14px;
 }
 .amenities h4 {
+  margin: 0px;
   font-weight: 400;
   font-size: 14px;
+}
+.popover {
+  display: none;
+}
+.locations:hover .popover {
+  margin: 1px;
+  display: block;
+  flex-flow: wrap column;
+  background-color: #fafafa;
+  width: auto;
+  border-radius: 4px;
+  border: 1px solid #dddddd;
+  list-style: none;
+  padding: 0px 15px;
+}
+.amenities:hover .popover {
+  margin: 1px;
+  display: block;
+  flex-flow: wrap column;
+  background-color: #fafafa;
+  width: auto;
+  border-radius: 4px;
+  border: 1px solid #dddddd;
+  list-style: none;
+  padding: 0px 15px;
+}
+.popover h2 {
+  text-align: left;
+  margin-top: 16px;
+  margin-bottom: 15px;
+}
+.popover p {
+  margin: 20px;
+  text-align: left;
 }
