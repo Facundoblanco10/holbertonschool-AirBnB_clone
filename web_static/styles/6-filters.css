@@ -14,10 +14,34 @@ button {
   height: 48px;
   width: 20%;
   border: none;
+  position: relative;
   border-radius: 4px;
   position: absolute;
   right: 30px;
 }
 button:hover {
   opacity: 90%;
+}
+.locations {
+  height: 100%;
+  width: 25%;
+  border-right: #dddddd solid 1px;
+}
+.amenities {
+  height: 100%;
+  width: 25%;
+}
+.locations h3 {
+  font-weight: 600;
+}
+.amenities h3 {
+  font-weight: 600;
+}
+.locations h4 {
+  font-weight: 400;
+  font-size: 14px;
+}
+.amenities h4 {
+  font-weight: 400;
+  font-size: 14px;
 }

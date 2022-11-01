@@ -6,4 +6,9 @@
   font-family: Circular, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .container {
+  max-width: 1000px;
+  margin: 30px auto 0px auto;
+  text-align: center;
+  position: relative;
+  padding-bottom: 90px;
 }
